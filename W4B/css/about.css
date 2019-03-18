@@ -1,0 +1,215 @@
+body{
+    margin: 0 auto;
+    background-image:url('../image/Flag.jpg');
+    background-color: #1a53ff;
+}
+
+/**********************Start of Nav************************/
+
+.nav-bar{
+    height:51px;
+    width:100%;
+    background-color:rgba(255, 0, 0, 0.5);/*this is red green*/
+    position:fixed;
+    top:0;
+}
+
+.psc-logo{
+    float:0 auto;
+    height:500px;
+    width:100%;
+    margin-top:100px;
+}
+
+.logo{
+    height:50px;
+    width:50px;
+    float:center;
+    margin-top:7px;
+}
+
+.list{
+    float:right;
+    margin-right:20px;
+    position: relative;
+    top:-20px;
+}
+
+.list-item{
+    list-style-type:none;
+    float:left;
+    margin:10px;
+    background-color:#99c2ff; /* */
+    display:inline-block;
+    height:25px;
+    width:60px;
+    border: 3px solid #000000; /*border is black*/
+    border-radius:20px;
+    padding:5px 0px 0px 20px;
+}
+
+.list-item:hover{
+    background-color:white;
+}
+
+.list-item a:hover{
+    color:#000;
+}
+
+
+.anchor{
+    margin-top:8px;
+    margin-left:8px;
+    color:;
+    text-decoration:none;
+}
+/***********************End of Nav********************/
+
+/***********************Start of Hero Section****************/
+
+.hero{
+    background-image:url('../image/psclogo.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:500px;
+    width:100%;
+    position:inherit;
+    top:50px;
+}
+
+/**********************End of Section********************/
+
+/**********************Start of Main*********************/
+.container{
+    height:700px;
+    width:100%;
+    margin-top: 92px;
+}
+
+.column{
+    background-color: #F8F8FF; /*This color is white*/
+    height:700px;
+    width:30%;
+    border: 6px solid #ff0000;
+    float:left;
+    margin-left:28px;
+}
+
+.youtube{
+    display:block;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+.gym{
+    height:347px;
+    width:370px;
+    border-radius:20px;
+    display:block;
+    margin:0 auto;
+    margin-top: 20px;
+}
+
+.ron{
+    height:300px;
+    width:370px;
+    border-radius:20px;
+    display:block;
+    margin:0 auto;
+}
+
+.captain{
+    height:347px;
+    width:370px;
+    border-radius:20px;
+    display:block;
+    margin:0 auto;
+}
+
+.green{
+    height:347px;
+    width:370px;
+    border-radius:20px;
+    display:block;
+    margin:0 auto;
+}
+
+.chainsaw{
+    height:347px;
+    width:370px;
+    border-radius:20px;
+    display:block;
+    margin:0 auto;
+}
+
+.ring{
+    height:347px;
+    width:370px;
+    border-radius:20px;
+    display:block;
+    margin:0 auto;
+}
+
+.work-g{
+    height:347px;
+    width:370px;
+    border-radius:20px;
+    display:block;
+    margin:0 auto;
+}
+
+.glassman{
+    height:347px;
+    width:370px;
+    border-radius:20px;
+    display:block;
+    margin:0 auto;
+}
+
+/**********************End of Main***********************/
+
+/**********************Start of Footer**********************/
+footer{
+    background-color:rgba(109,110,112,0.8); /* This Color is transparent grey*/
+    height:70px;
+    clear:both;
+}
+
+.footer-col{
+    width:100%;
+    float:clear;
+}
+
+.footer-button, .social, .copyright{
+    display:block;
+    text-align: center;
+}
+
+.footer-button{
+    margin-top: auto;
+}
+
+.input{
+    height:30px;
+    width:170px;
+}
+
+.button{
+    height:30px;
+    width:60px;
+    text-align: center;
+}
+
+.fab{
+    font-size:2em;
+    margin-top:18px;
+    margin:0 auto;
+}
+
+.fa-facebook-square{
+    color:#4267b2;
+}
+
+.fa-instagram{
+    color:#231F20;
+}
