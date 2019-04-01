@@ -13,6 +13,7 @@ body {
   
   h2 {
     font-size: 3em;
+    text-shadow: 1px 1px 1px #000000;
   }
   
   /* Nav Styles */
@@ -23,7 +24,7 @@ body {
   }
   
   .navbar-brand img {
-    max-width: 200px;
+    max-width: 100px;
   }
   
   .hashtag {
@@ -100,14 +101,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  .projects{
-    height: 500px;
-    width: 1100px;
-    background-color:rgba(255, 255, 255, 0.4);
-    border-radius: 2px;
 
-  }
-  
+  /**************** POP OUT *********************/
+
   .s2 {
     background-image: url('../img/building.jpg');
     background-size: cover;
@@ -124,11 +120,36 @@ body {
     height: 125vh;
     color: #ffffff;
   }
-  
+
+  .projects{
+    height: 100px;
+    width: 100px;
+    background-color:rgba(255, 255, 255, 0.4);
+    border-radius: 2px;
+
+  }
+
+ .project-btn {
+    color: #ffffff;
+    width: 8em;
+    height: 3em;
+    background-color: rgba(92, 38, 240, 0.418);
+    border-radius: 2px;
+ }
   
   /* End Main Section */
   
+  @-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
   
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+
   
   /* Small Screens */
   @media only screen and (min-width : 768px) {
