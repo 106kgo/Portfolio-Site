@@ -170,7 +170,7 @@ body {
   }
   
   .s1 {
-    background-image: url('../img/dev.jpg');
+    background-image: linear-gradient(rgba(90, 83, 83, 0.466),rgba(110, 98, 98, 0.534)), url('../img/dev.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
