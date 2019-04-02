@@ -1,4 +1,4 @@
-/* Global Styles */
+/*-------\/-\/-\/------- Global -------\/-\/-\/-------*/
 body {
     font-family: 'Work Sans', sans-serif;
     text-transform: uppercase;
@@ -15,8 +15,10 @@ body {
     font-size: 3em;
     text-shadow: 1px 1px 1px #000000;
   }
-  
-  /* Nav Styles */
+  /* -----/\-/\-/\----End of Global -----/\-/\-/\--------- */
+
+
+  /*-------------- Nav Styles --------------*/
   .navbar  {
     background: transparent;
     transition: all .25s ease-out;
@@ -75,9 +77,9 @@ body {
     border: 0;
   }
   
-  /* End of nav styles */
+  /*----------------- End of nav styles -----------------*/
   
-  /* Main Section */
+  /*--------------------- Main Section ---------------------*/
   .quote {
     position: fixed;
     bottom: 20px;
@@ -85,6 +87,79 @@ body {
     text-align: right;
     color: #ffffff;
   }
+
+
+  /*------------------Modal ----------*/
+  #myBtn {
+    width: 20em;
+    height: 2em;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    transition: all 0.4s;
+    /* transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1); */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    padding: 2px 16px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+  
+  .modal-body {
+    padding: 2px 16px;
+    background-color: rgba(0,0,0,0.4)
+  }
+  
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #000;
+  }
+
+  /*------------------End Modal Content  ---------*/
   
   .hero {
     background-image: url('../img/explore.jpg');
@@ -102,7 +177,6 @@ body {
     background-attachment: fixed;
   }
 
-  /**************** POP OUT *********************/
 
   .s2 {
     background-image: url('../img/building.jpg');
@@ -137,7 +211,7 @@ body {
     border-radius: 2px;
  }
   
-  /* End Main Section */
+  /*--------------------- End Main Section ---------------------*/
   
   @-webkit-keyframes animatetop {
     from {top:-300px; opacity:0} 
@@ -166,4 +240,37 @@ body {
   /* Large Screens */
   @media only screen and (min-width : 1200px) {
   }
+/*----------- Modal -----------*/
+  @-webkit-keyframes animatetop {
+    from {right:-30%; opacity:0} 
+    to {top:0; opacity:1}
+  }
   
+  @keyframes animatetop {
+    from {right:-30%; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+
+  /* -------------SCROLL BAR -------------- */
+  
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 2px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(42, 168, 69, 0.616); 
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(92, 38, 240, 0.4); 
+  }
