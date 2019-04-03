@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gabriel Olmos Portfolio Website</title>
   <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -64,16 +65,16 @@
   <section id="section-0" class="hero section-container">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 col-xs-6">
+        <div class="col-md-12 col-xs-12">
           <h2>GABRIEL OLMOS</h2>
           <h3>Web Developer</h3>
           <button class="lrg-btn" id="myBtn">Skills</button>
           <div id="myModal" class="modal">
-<!---------------- Modal content ---------------->
+            <!---------------- Modal content ---------------->
             <div class="modal-content">
               <div class="modal-header">
                 <span class="close">&times;</span>
-                <h2>Coding Languages</h2>
+                <h2>Computer Languages</h2>
               </div>
               <div class="modal-body">
                 <p>HTML5</p>
@@ -86,7 +87,7 @@
                 <h3>Currently Learning Angular</h3>
               </div>
             </div>
-          
+
           </div>
         </div>
       </div>
@@ -97,145 +98,123 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-        <h2>Projects</h2>
-<!---------------------START OF CAROUSEL 1 ------------>
-          <div class="container col-md-4 col-xs-4">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <h2>Projects</h2>
+          <!---------------------START OF CAROUSEL 1 ------------>
+          <div class="container col-md-4 col-xs-12">
+            <div id="myCarousel-1" class="carousel slide" data-ride="carousel">
+
+
+
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="myCarousel-1" data-slide-to="0" class="active">
+                </li>
+                <li data-target="myCarousel-1" data-slide-to="1">
+                </li>
+                <li data-target="myCarousel-1" data-slide-to="2">
+                </li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner imgc" role="listbox">
+                <div class="item active">
+                  <img class="imgc" src="W4B/image/Precision-LOGO.jpg" alt="Precision Gym Logo">
+                </div>
+
+                <div class="item">
+                  <img class="imgc" src="W4B/image/shelby-rings.jpg" alt="female crossfit athlete">
+                </div>
+
+                <div class="item">
+                  <img class="imgc" src="W4B/image/PSC-team.jpg" alt="Team picture">
+                </div>
+              </div>
+
+
+              <!------------------CAROUSEL LEFT TO RIGHT------------------------------------------>
+              <a class="left carousel-control" href="#myCarousel-1" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel-1" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <a href="https://106kgo.github.io/Precision-Strength-Final/" class="project-btn" target="_blank">
+              <button class="lg-btn project-btn">First Website</button>
+            </a>
+          </div>
+          <!---------------------END OF CAROUSEL 1 ------------->
+
+          <!---------------------START OF 2ND SECTION -------------->
+
+          <div class="container col-md-4 col-xs-12">
+            <img class="js-project img-responsive" src="clock-drum/img/crowd-img.jpg" alt="js project">
+            <a href="clock-drum/" class="js-project">
+              <button class="lg-btn project-btn">JS Projects</button>
+            </a>
+          </div>
+          <div class="container col-md-4 col-xs-12">
+          <div id="myCarousel-3" class="carousel slide" data-ride="carousel">
 
 
 
             <!-- Indicators -->
             <ol class="carousel-indicators">
-              <li data-target="myCarousel" data-slide-to="0" class="active">
+              <li data-target="myCarousel-3" data-slide-to="0" class="active">
               </li>
-              <li data-target="myCarousel" data-slide-to="1">
+              <li data-target="myCarousel-3" data-slide-to="1">
               </li>
-              <li data-target="myCarousel" data-slide-to="2">
+              <li data-target="myCarousel-3" data-slide-to="2">
               </li>
             </ol>
 
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner imgc" role="listbox">
               <div class="item active">
-                <img src="W4B/image/psclogo.jpg" alt="Precision Gym website Logo">
+                <img src="img/restaurant-2.jpg" alt="#">
               </div>
 
               <div class="item">
-                <img src="W4B/image/shelby-rings.jpg" alt="female crossfit athlete">
+                <img src="img/food_review.jpg" alt="#">
               </div>
 
               <div class="item">
-                <img src="W4B/image/PSC-team.jpg" alt="Team picture">
+                <img src="img/food_review.jpg" alt="#">
               </div>
             </div>
 
 
             <!------------------CAROUSEL LEFT TO RIGHT------------------------------------------>
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <a class="left carousel-control" href="#myCarousel-3" role="button" data-slide="prev">
               <span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>            
-            </div>
-            <button class="lg-btn project-btn"><a href="/W4B/" class="project-btn" target="_blank">First Website</a></button>
-          </div>
-<!---------------------END OF CAROUSEL 1 ------------->
-
-<!---------------------START OF CAROUSEL 2 -------------->
-        
-          <div class="container col-md-4 col-xs-4">
-          <div id="myCarousel2" class="carousel slide" data-ride="carousel">
-
-
-
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="myCarousel" data-slide-to="0" class="active">
-              </li>
-              <li data-target="myCarousel" data-slide-to="1">
-              </li>
-              <li data-target="myCarousel" data-slide-to="2">
-              </li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="img/cpu-code.jpg" alt="#">
-              </div>
-
-              <div class="item">
-                <img src="img/tech.jpg" alt="#">
-              </div>
-            </div>
-
-
-            <!------------------CAROUSEL LEFT TO RIGHT------------------------------------------>
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <a class="right carousel-control" href="#myCarousel-3" role="button" data-slide="next">
               <span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
-            <button class="lg-btn project-btn">JS Projects<a href="" class=""></a></button>
-            </div>
-          </div>
-<!---------------------END OF CAROUSEL 2 ---------------->
-
-<!---------------------START OF CAROUSEL 3 -------------->
-
-          <div class="container col-md-4 col-xs-4">
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-
-
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="myCarousel" data-slide-to="0" class="active">
-              </li>
-              <li data-target="myCarousel" data-slide-to="1">
-              </li>
-              <li data-target="myCarousel" data-slide-to="2">
-              </li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="img/photo-code.jpg" alt="#">
-              </div>
-
-              <div class="item">
-                <img src="img/tech.jpg" alt="#">
-              </div>
-            </div>
-
-
-            <!------------------CAROUSEL LEFT TO RIGHT------------------------------------------>
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
+            <a href="https://106kgo.github.io/mfw-restaurante/" target="_blank" class="">
+              <button class="lg-btn project-btn">Resturante
+              </button>
             </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-            <button class="lg-btn project-btn">Resturante<a href="" class=""></a></button>
-
-            </div>
-          </div>
-
 
           </div>
-<!---------------------END OF COROUSEL 3 ---------------->
         </div>
-        <!-- </div> -->
+        </div>
+        <!---------------------END OF 2ND SECTION ---------------->
+
+        <!---------------------START OF RESTURANTE CAROUSEL 3 -------------->
+
+        
+
+
       </div>
+      <!---------------------END OF COROUSEL 3 ---------------->
+    </div>
+    <!-- </div> -->
+    </div>
     </div>
   </section>
 
@@ -249,7 +228,7 @@
             <form action="">
               <div class="form-group">
                 <label for="Name">Name</label>
-                <input type="text" class="form-control" palceholder="Name">
+                <input type="text" class="form-control" placeholder="Name">
               </div>
               <div class="form-group">
                 <label for="">Email:<span>*</span></label>
@@ -267,24 +246,28 @@
                 <label for="checkbox">
                   <input type="checkbox">I'm not a Robot
                 </label>
-                </div>
+              </div>
               <button type="submit" class="btn btn-default center-block">Send Message</button>
 
 
-          <div class="footer-col">
-            <div class="footer-button">
-            </div>
-            <div class="footer-col">
-              <div class="social">
-                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-              </div>
               <div class="footer-col">
-                <p class="copyright">&copy;Gabriel Olmos. Modified by way of Wanderlust All Rights Reserved 2019</p>
+                <div class="footer-button">               
+                  <div class="footer-col">
+                  <div class="social">
+                    <a href="https://www.linkedin.com/in/gabriel-olmos-bbb210b1/" target="_blank">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/106kgo/?hl=en" target="_blank">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                  <div class="footer-col">
+                    <p class="copyright">&copy;Gabriel Olmos. Modified by way of Wanderlust All Rights Reserved 2019</p>
+                  </div>
+                  </div>
+                </div>  
               </div>
-            </div>
           </div>
-        </div>
   </section>
 
 
