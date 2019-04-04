@@ -21,9 +21,9 @@ body {
     size: 2em;
   }
 
-  .imgc {
+  /* .imgc {
     max-height: 240px;
-  }
+  } */
 
   .fab {
     font-size: 2em;
@@ -45,12 +45,6 @@ body {
     margin-top: -40px;
   }
   
-  /* .hashtag {
-    display: block;
-    color: #ffffff;
-    padding: 10px 15px;
-    font-size: 14px;
-  } */
   
   .navbar-default .navbar-nav > li > a {
     color: rgba(255, 255, 255, 0.4);
@@ -235,37 +229,15 @@ body {
  .copyright {
    font-size: -1em;
  }
+
+ .contact_form {
+   text-shadow: 1px 1px 1px 1px #000;
+ }
   
   /*--------------------- End Main Section ---------------------*/
-  
-  @-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
-  }
-  
-  @keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-  }
 
 
-  
-  /* Small Screens */
-  @media only screen and (min-width : 768px) {
-    .hashtag {
-      padding-top: 15px;
-      padding-bottom: 15px;
-    }
-  }
-  
-  /* Medium Screens */
-  @media only screen and (min-width : 992px) {
-  }
-  
-  /* Large Screens */
-  @media only screen and (min-width : 1200px) {
-  }
-/*----------- Modal -----------*/
+/*----------------------- Modal -----------------------*/
   @-webkit-keyframes animatetop {
     from {right:-30%; opacity:0} 
     to {top:0; opacity:1}
@@ -299,3 +271,27 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background: rgba(92, 38, 240, 0.4); 
   }
+/*-------------END OF SCROLL BAR --------------*/
+
+  /* @media screen and (max-width : 337px) {
+    .s1{
+      height: 1500px;
+    }
+  } */
+    /* Small Screens */
+    @media only screen and (max-width : 768px) {
+      .hashtag {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+    }
+    
+    /* Medium Screens */
+    @media only screen and (max-width : 992px) {
+    }
+    
+    /* Large Screens */
+    @media only screen and (max-width : 1200px) {
+    }
+
+  
