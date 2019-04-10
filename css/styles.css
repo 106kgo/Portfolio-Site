@@ -91,14 +91,6 @@ body {
   /*----------------- End of nav styles -----------------*/
   
   /*--------------------- Main Section ---------------------*/
-  .quote {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    text-align: right;
-    color: #ffffff;
-  }
-
 
   /*------------------Modal ----------*/
   #myBtn {
